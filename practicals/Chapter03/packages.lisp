@@ -1,3 +1,3 @@
 (in-package :cl-user)
 
-(defpackage :com.gigamonkeys.simple-db (:use :cl))
+(defpackage :com.kubekrafters.simple-db (:use :cl))

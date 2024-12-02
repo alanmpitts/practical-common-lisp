@@ -1,4 +1,4 @@
-(in-package :com.gigamonkeys.simple-db)
+(in-package :com.kubekrafters.simple-db)
 
 (defvar *db* nil)
 
@@ -68,6 +68,3 @@
 
 (defun delete-rows (selector-fn)
   (setf *db* (remove-if selector-fn *db*)))
-
-
-

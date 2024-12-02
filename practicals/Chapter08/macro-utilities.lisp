@@ -1,4 +1,4 @@
-(in-package :com.gigamonkeys.macro-utilities)
+(in-package :com.kubekrafters.macro-utilities)
 
 (defmacro with-gensyms ((&rest names) &body body)
   `(let ,(loop for n in names collect `(,n (make-symbol ,(string n))))
